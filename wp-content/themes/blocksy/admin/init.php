@@ -101,10 +101,24 @@ add_action(
 			'wp.i18n.setLocaleData( ' . wp_json_encode($locale_data_ct) . ', "blocksy" );'
 		);
 
+		$styles_deps = [];
+
+		if (
+			$current_screen->base === 'nav-menus'
+			||
+			(
+				$current_screen->base === 'post'
+				&&
+				$current_screen->is_block_editor
+			)
+		) {
+			$styles_deps[] = 'wp-components';
+		}
+
 		wp_enqueue_style(
 			'ct-options-styles',
 			get_template_directory_uri() . '/static/bundle/options.min.css',
-			['wp-components'],
+			$styles_deps,
 			$theme->get('Version')
 		);
 

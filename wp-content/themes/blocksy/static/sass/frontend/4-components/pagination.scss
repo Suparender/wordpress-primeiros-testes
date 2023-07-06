@@ -8,10 +8,6 @@
 		padding-top: var(--spacing, 60px);
 		border-top: var(--pagination-divider, none);
 	}
-
-	svg {
-		fill: currentColor;
-	}
 }
 
 // simple & prev next type
@@ -28,6 +24,7 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		gap: 8px;
 		height: 40px;
 		border-radius: var(--border-radius, 4px);
 		border: 2px solid transparent;
@@ -55,19 +52,11 @@
 	.prev {
 		grid-column: 1;
 		justify-self: start;
-
-		svg {
-			margin-inline-end: 8px;
-		}
 	}
 
 	.next {
 		grid-column: 3;
 		justify-self: end;
-
-		svg {
-			margin-inline-start: 8px
-		}
 	}
 }
 

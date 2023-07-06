@@ -69,10 +69,14 @@ class Blocksy_Custom_Post_Types {
 				'atbdp_orders',
 				'at_biz_dir',
 
-				// 'courses',
+				// tutor lms
 				'tutor_quiz',
 				'tutor_assignments',
 				'tutor_zoom_meeting',
+
+				// learn dash
+				'ld-exam',
+				'groups',
 
 				// 'tribe_events',
 				'testimonial',
@@ -90,11 +94,6 @@ class Blocksy_Custom_Post_Types {
 				'pgc_simply_gallery',
 				'pdfviewer',
 				'da_image',
-
-				// 'sfwd-quiz',
-				// 'sfwd-topic',
-				// 'sfwd-lessons',
-				// 'sfwd-courses'
 			]));
 
 			$this->supported_post_types = array_unique(apply_filters(

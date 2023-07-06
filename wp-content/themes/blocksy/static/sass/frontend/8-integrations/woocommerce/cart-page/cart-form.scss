@@ -1,4 +1,4 @@
-.ct-cart-form {
+.ct-woocommerce-cart-form {
 	display: grid;
 
 	@include media-breakpoint-down (md) {
@@ -22,6 +22,6 @@
 }
 
 // cart form + checkout form
-.woocommerce-checkout .ct-cart-form {
+.woocommerce-checkout .ct-woocommerce-cart-form {
 	grid-template-columns: initial;
 }

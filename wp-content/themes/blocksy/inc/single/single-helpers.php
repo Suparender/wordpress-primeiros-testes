@@ -81,7 +81,8 @@ if (! function_exists('blocksy_author_social_channels')) {
 			'vimeo',
 			'vkontakte',
 			'odnoklassniki',
-			'tiktok'
+			'tiktok',
+			'mastodon'
 		];
 
 		$outputs = [];
@@ -146,6 +147,11 @@ if (! function_exists('blocksy_author_social_channels')) {
 			'tiktok' => [
 				'label' => 'TikTok icon',
 				'icon' => '<svg class="ct-icon" width="12" height="12" viewBox="0 0 20 20"><path d="M18.2 4.5c-2.3-.2-4.1-1.9-4.4-4.2V0h-3.4v13.8c0 1.4-1.2 2.6-2.8 2.6-1.4 0-2.6-1.1-2.6-2.6s1.1-2.6 2.6-2.6h.2l.5.1V7.5h-.7c-3.4 0-6.2 2.8-6.2 6.2S4.2 20 7.7 20s6.2-2.8 6.2-6.2v-7c1.1 1.1 2.4 1.6 3.9 1.6h.8V4.6l-.4-.1z"/></svg>'
+			],
+
+			'mastodon' => [
+				'label' => 'Mastodon icon',
+				'icon' => '<svg class="ct-icon" width="12" height="12" viewBox="0 0 20 20"><path d="M19.3 6.6c0-4.3-2.8-5.6-2.8-5.6C13.7-.3 6.3-.3 3.5 1 3.5 1 .7 2.3.7 6.6c0 5.2-.3 11.6 4.7 12.9 1.8.5 3.4.6 4.6.5 2.3-.1 3.5-.8 3.5-.8l-.1-1.6s-1.6.5-3.4.5c-1.8-.1-3.7-.2-4-2.4v-.6c3.8.9 7.1.4 8 .3 2.5-.3 4.7-1.8 5-3.3.4-2.3.3-5.5.3-5.5zM16 12.2h-2.1V7.1c0-2.2-2.9-2.3-2.9.3v2.8H9V7.4c0-2.6-2.9-2.5-2.9-.3v5.1H4c0-5.4-.2-6.6.8-7.8C6 3.1 8.4 3 9.5 4.6l.5.9.5-.9c1.1-1.6 3.5-1.5 4.7-.3 1 1.3.8 2.4.8 7.9z"/></svg>'
 			]
 		];
 

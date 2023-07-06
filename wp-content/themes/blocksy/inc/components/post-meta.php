@@ -99,6 +99,11 @@ if (! function_exists('blocksy_post_meta')) {
 
 		// Author ID
 		global $post;
+
+		if (is_numeric($post)) {
+			$post = get_post($post);
+		}
+
 		$user_id = $post->post_author;
 
 		global $authordata;

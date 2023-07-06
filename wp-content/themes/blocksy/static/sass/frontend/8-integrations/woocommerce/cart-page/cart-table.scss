@@ -16,8 +16,8 @@
 }
 
 
-// theme styles
-.ct-cart-form .shop_table {
+// theme speciffic styles
+[class*="ct-woocommerce"] .shop_table {
 
 	@include media-breakpoint-down (sm) {
 		--table-padding: 1.3em 0.7em;
@@ -26,6 +26,7 @@
 	@include media-breakpoint-up (md) {
 		--table-padding: 1.5em 0.7em;
 	}
+
 
 	// pruduct thumbnail
 	[class*="product-thumbnail"] {

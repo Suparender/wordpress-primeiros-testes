@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-06-29 15:59+0000\n"
+"POT-Creation-Date: 2023-07-05 07:30+0000\n"
 "Project-Id-Version: undefined\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
@@ -29,7 +29,7 @@ msgid "One comment"
 msgstr ""
 
 #. translators: % refers to the number of comments, when more than 1
-#: comments.php:36, inc/components/post-meta.php:356
+#: comments.php:36, inc/components/post-meta.php:361
 msgid "% Comments"
 msgstr ""
 
@@ -327,7 +327,7 @@ msgstr ""
 msgid "Default image"
 msgstr ""
 
-#: inc/components/menus.php:490, inc/integrations/custom-post-types.php:193,
+#: inc/components/menus.php:490, inc/integrations/custom-post-types.php:192,
 #: inc/options/general/back-to-top.php:37,
 #: inc/options/general/breadcrumbs.php:12, inc/options/general/meta.php:139,
 #: inc/options/general/meta.php:341, inc/options/general/page-title.php:725,
@@ -372,40 +372,40 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: inc/components/post-meta.php:64, inc/components/post-meta.php:625,
+#: inc/components/post-meta.php:64, inc/components/post-meta.php:630,
 #: inc/options/general/meta.php:215
 msgid "By"
 msgstr ""
 
-#: inc/components/post-meta.php:74, inc/components/post-meta.php:633,
-#: inc/components/post-meta.php:641, inc/options/general/meta.php:265,
+#: inc/components/post-meta.php:74, inc/components/post-meta.php:638,
+#: inc/components/post-meta.php:646, inc/options/general/meta.php:265,
 #: inc/options/general/meta.php:300
 msgid "On"
 msgstr ""
 
-#: inc/components/post-meta.php:82, inc/components/post-meta.php:649,
+#: inc/components/post-meta.php:82, inc/components/post-meta.php:654,
 #: inc/options/general/meta.php:357
 #: static/js/customizer/sync/helpers/entry-meta.js:74
 msgid "In"
 msgstr ""
 
 #. translators: %s: Author's display name.
-#: inc/components/post-meta.php:198
+#: inc/components/post-meta.php:203
 msgid "Posts by %s"
 msgstr ""
 
 #. translators: text for one review
-#: inc/components/post-meta.php:354
+#: inc/components/post-meta.php:359
 msgid "1 Comment"
 msgstr ""
 
 #. translators: text for one review
-#: inc/components/post-meta.php:360
+#: inc/components/post-meta.php:365
 msgid "1 Review"
 msgstr ""
 
 #. translators: % refers to the number of reviews, when more than 1
-#: inc/components/post-meta.php:362
+#: inc/components/post-meta.php:367
 msgid "% Reviews"
 msgstr ""
 
@@ -504,13 +504,13 @@ msgstr ""
 msgid "After Footer"
 msgstr ""
 
-#: inc/integrations/custom-post-types.php:166,
-#: inc/integrations/custom-post-types.php:173
+#: inc/integrations/custom-post-types.php:165,
+#: inc/integrations/custom-post-types.php:172
 msgid "Category"
 msgstr ""
 
-#: inc/integrations/custom-post-types.php:167,
-#: inc/integrations/custom-post-types.php:174
+#: inc/integrations/custom-post-types.php:166,
+#: inc/integrations/custom-post-types.php:173
 msgid "Tag"
 msgstr ""
 
@@ -721,16 +721,16 @@ msgstr ""
 msgid "Edit%1$s \"%2$s\"%3$s"
 msgstr ""
 
-#: inc/single/single-helpers.php:259
+#: inc/single/single-helpers.php:265
 msgid "Joined"
 msgstr ""
 
-#: inc/single/single-helpers.php:263, inc/single/single-helpers.php:382,
+#: inc/single/single-helpers.php:269, inc/single/single-helpers.php:388,
 #: inc/options/general/page-title.php:542
 msgid "Articles"
 msgstr ""
 
-#: inc/single/single-helpers.php:267,
+#: inc/single/single-helpers.php:273,
 #: inc/options/general/comments-single.php:15,
 #: inc/options/general/meta.php:235, inc/options/general/page-title.php:543
 msgid "Comments"

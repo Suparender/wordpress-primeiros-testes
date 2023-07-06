@@ -1,3 +1,9 @@
+1.8.95: 2023-07-05
+- Improvement: Pagination icons color improvement
+- Improvement: Better compatibility with PHP 8.2
+- Improvement: Add Mastodon to author box social channels
+- Improvement: Small improvement for LearnDash integration
+
 1.8.94: 2023-06-29
 - Improvement: Ensure no trailing commas is left in the archive card function
 - Improvement: Issue with Elementor paragraph margin when last child

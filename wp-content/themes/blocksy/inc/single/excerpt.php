@@ -14,7 +14,7 @@ if (! function_exists('blocksy_trim_excerpt')) {
 		$text = $excerpt;
 
 		if ($length !== 'original') {
-			$raw_chars_count = strlen(utf8_decode(trim($excerpt)));
+			$raw_chars_count = strlen(blocksy_utf8_decode(trim($excerpt)));
 			$multibyte_chars_count = strlen(trim($excerpt)) - $raw_chars_count;
 
 			if ($raw_chars_count > 0) {

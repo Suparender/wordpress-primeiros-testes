@@ -1,0 +1,15 @@
+/*
+Theme name: Ababoi
+Theme URI: https://github.com/Suparender/wordpress-primeiros-testes
+Author: Suparender
+Author URI: https://github.com/Suparender/
+Description: Tema modelo de aprendizado
+Version: 0.1
+License: Mit License
+License URI: https://opensource.org/license/mit/
+Tags: Básico, branco, simples
+*/
+
+body{
+    background-color: rgb(68, 68, 68);
+}
